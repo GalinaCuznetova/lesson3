@@ -44,6 +44,9 @@ public class Main {
         var workTime = 8;
         var employeesNumber = totalHours / workTime;
         System.out.println("Всего работников в компании " + employeesNumber + " человек!");
+        var increaseEmployees = employeesNumber + 94;
+        var workingHoursNew = totalHours / increaseEmployees;
+         System.out.println("Если в компании работает " + increaseEmployees + " человека,то всего по " + workingHoursNew + " часа работы приходится на каждого  сотрудника!");
 
     }
 }
